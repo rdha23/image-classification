@@ -1,0 +1,18 @@
+# Abaikan seluruh folder data
+data/
+
+# Abaikan cache Python dan Jupyter
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# Abaikan file model terlatih
+**/*.h5
+**/*.keras
+**/*.pkl
+**/*.pt
+**/*.joblib
+
+# Abaikan hasil training dan output visualisasi
+**/saved-models/
+**/saved-images/
+**/training_logs/
