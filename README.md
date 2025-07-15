@@ -36,8 +36,8 @@ for layer in pretrained_model.layers[:-30]:  # <= ubah disini
 
 8. ika ingin tanpa finetuning, pada pada bagian markdown "Memuat Layer" ubah kodenya menjadi berikut
 ```python
-    pretrained_model.trainable = False
-  ```
+pretrained_model.trainable = False
+```
 
 9. Jalankan program 
 
